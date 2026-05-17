@@ -1,0 +1,10 @@
+requests
+pandas
+numpy
+streamlit
+plotly
+pynvml
+psutil
+pyyaml
+tqdm
+python-dotenv

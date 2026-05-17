@@ -1,0 +1,14 @@
+ollama:
+  base_url: "http://127.0.0.1:11434"
+  default_model: "qwen2.5:3b"
+benchmark:
+  output_path: "data/llm_inference_benchmark.csv"
+  gpu_sample_interval_sec: 0.2
+  default_runs_per_prompt: 2
+  default_concurrency: 1
+workloads:
+  prompt_types:
+    - short_qa
+    - medium_reasoning
+    - long_context
+    - code_generation
