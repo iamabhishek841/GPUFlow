@@ -1,0 +1,4 @@
+model,total_runs,avg_latency_ms,p95_latency_ms,avg_tokens_per_second,avg_cost_per_1k_tokens_usd,max_vram_mb,max_gpu_util_pct,max_temperature_c
+llama3.2:3b,6,5252.25,7914.7,92.58,0.001502,7307.59,99.0,69.0
+phi3:mini,6,6697.26,10462.02,81.73,0.001713,4813.39,98.0,70.0
+qwen2.5:3b,6,6826.31,10458.91,99.37,0.001429,7239.73,95.0,67.0
