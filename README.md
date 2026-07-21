@@ -103,13 +103,6 @@ Run dashboard:
 ```powershell
 streamlit run dashboard/app.py
 ```
-
-## What to Discuss in Interviews
-
-A strong explanation:
-
-> I built GPUFlow to understand the performance side of LLM serving. I ran real local LLM inference on an NVIDIA GPU and measured latency, tokens/sec, VRAM usage, GPU utilization, prompt-length impact, and cold/warm inference behavior. The goal was not to build another chatbot, but to profile inference bottlenecks and understand how prompt length, model size, GPU memory, and concurrency affect serving performance.
-
 ## Future Improvements
 
 - Add vLLM or Triton backend
